@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Trigger Me Elmo</title>
+<style>
+    body{
+        background-color:black;
+        overflow: hidden;
+        color:white;
+        font-family:monospace;
+    }
+
+    #camera-div{
+        background:#141414;
+    }
+
+    #facecam{
+        padding-top:70px;
+        padding-left:50px;
+        position:absolute;
+    }
+
+    #trigger-button{
+        position:absolute;
+        z-index: 1;
+        border-radius: 5px;
+        background-color:white;
+    }
+
+    #trigger-button:hover{
+        background-color:lightblue;
+    }
+
+    #paused-image{
+        position:absolute;
+        padding-top:70px;
+        padding-left:50px;
+    }
+
+    #elmo-image{
+        top:20px;
+        right:0;
+        height:50%;
+        position:absolute;
+    }
+
+    div:empty {
+        display:none;
+    }
+
+    #race{
+        border:2px solid lime;
+        background-color:#141414;
+        font-size:medium;
+        position:absolute;
+        top:25%;
+        right:5%;
+        z-index:1;
+        text-align:left;
+        padding:5px;
+    }
+
+    #subtitles-div{
+        font-size:25px;
+        position:absolute;
+        text-align: center;
+        width:100%;
+        bottom:10%;
+    }
+
+    #subtitles-text{
+        margin:auto;
+    }
+
+    html > div[style] {
+        display: none !important;
+    }
+    
+</style>
+<script type='text/javascript' src='/static/scripts/jquery.min.js'></script>
+<script type="text/javascript" src="/static/scripts/p5.min.js"></script>
+<script type="text/javascript" src="/static/scripts/p5.sound.min.js"></script>
+<script type="text/javascript" src="/static/sketch.js"></script>
+</head>
+<body>
+    <div id='race'></div>
+    <div id='subtitles-div'><p id='subtitles-text'></p></div>
+</body>
+</html>
