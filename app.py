@@ -9,6 +9,7 @@ import subprocess
 import os
 import cv2
 import random
+import webbrowser
 
 app = Flask(__name__)
 log = logging.getLogger('werkzeug')
@@ -78,5 +79,5 @@ def photo_cap():
 
 if __name__ == "__main__":
     # p = subprocess.Popen(['python -m SimpleHTTPServer'], shell=True) #Only for macOS
-    print(" * Running on http://127.0.0.1:8000/")
+    webbrowser.open_new('http://127.0.0.1:8000/')
     app.run(host='localhost', port=8000, debug=True)

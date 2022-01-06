@@ -6,7 +6,7 @@
 
 ## How to use
 
-1. You need [Python 3](https://python.org) installed, along with the requirements in requirements.txt
+1. You need [Python 3.9](https://python.org) installed, along with the requirements in requirements.txt
 
      `pip install -r requirements.txt`
 
