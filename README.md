@@ -16,6 +16,10 @@
 
 -    do `command` in command prompt
 
+4. Forget everything before and just run startup.bat
+
+5. Let it run a bit, it may take a while. Then run the start.bat
+
 ---
 
 ## License & copyright
