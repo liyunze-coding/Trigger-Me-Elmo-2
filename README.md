@@ -11,7 +11,7 @@
 2. In command prompt, do
    i) `cd [path/to/Trigger-Me-Elmo-2]`
    ii) `./first-startup.bat`
-   iii) `./start.bat`
+   iii) `python app.py`
 
 ---
 
