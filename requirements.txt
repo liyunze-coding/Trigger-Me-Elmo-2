@@ -1,5 +1,6 @@
 numpy>=1.18.5
 opencv-python>=4.2.0.34
+opencv-contrib-python>=4.3.0.36
 Flask>=1.1.2
 Pillow>=7.2.0
 deepface>=0.0.40
