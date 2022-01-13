@@ -18,19 +18,19 @@ faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 error_path = {'race': {'asian': 0, 'indian': 0, 'black': 0, 'white': 0,
                        'middle eastern': 0, 'latino hispanic': 0}, 'dominant_race': '?'}
-dir = 'static/img'
+directory = 'static/img'
 
 if 'img' not in os.listdir('static/'):
-    os.mkdir(dir)
+    os.mkdir(directory)
 
-for f in os.listdir(dir):
-    os.remove(os.path.join(dir, f))
+for f in os.listdir(directory):
+    os.remove(os.path.join(directory, f))
 
 
 def generate_random_string():
     numbers = '1234567890'
     res = ''.join(random.choice(numbers) for _ in range(10))
-    return f'{dir}/{res}.png'
+    return f'{directory}/{res}.png'
 
 
 @app.route('/')

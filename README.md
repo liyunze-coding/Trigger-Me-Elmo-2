@@ -6,15 +6,12 @@
 
 ## How to use
 
-1. You need [Python 3.9](https://python.org) installed, along with the requirements in requirements.txt
+1. You need [Python 3.9](https://python.org) installed
 
-     `pip install -r requirements.txt`
-
-2. Install necessary weights for DeepFace by running `python3 deepface_test.py`
-
-3. After everything is done installing, run the main script by doing `python3 app.py`
-
--    do `command` in command prompt
+2. In command prompt, do
+   i) `cd [path/to/Trigger-Me-Elmo-2]`
+   ii) `./first-startup.bat`
+   iii) `./start.bat`
 
 ---
 
