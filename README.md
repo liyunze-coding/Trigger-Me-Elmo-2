@@ -18,5 +18,6 @@
 ## License & copyright
 
 © Ryan Lee In Zer, student
+Credits to AlbertMakingStuff for making it more user friendly.
 
 Licensed under the [MIT License](LICENSE).
